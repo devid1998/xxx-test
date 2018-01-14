@@ -1,0 +1,135 @@
+
+body {
+ 
+ margin:0;
+ padding:0;
+ font-size: 20px;
+ background-color: #EFEFEF;
+ font-family: sans-serif;
+}
+
+h1 {
+ 
+ text-align: center;
+ font-size: 50px;
+
+
+}
+
+.form {
+margin: 50px auto;
+padding: 50px;
+ width: 300px;
+ border:1px solid #6A89A8;
+ background-color: #9FC5EB;
+}
+
+table {
+ width: auto;
+ border-collapse: collapse;
+ margin: 20px auto ;
+ padding: 10px;
+ 
+ 
+}
+
+td {
+ text-align: center;
+}
+
+tr td {
+  border-bottom: 1px solid #ddd;
+ padding: 5px;
+}
+
+a {
+color: green;
+text-decoration: none;
+
+}
+
+.add {
+text-align: center;
+color: white;
+
+}
+
+input[type=checkbox]:checked + .checked {
+ text-decoration: line-through;
+ color: blue;
+
+ }
+
+.add-div {
+ 
+ background-color: grey;
+ width:120px;
+ padding: 15px;
+ margin:10px 0 40px 0;
+ border-radius: 10%;
+ animation-name: example;
+ animation-duration: 20s;
+ animation-iteration-count: infinite;
+ transition: transform 0.5s;
+
+}
+
+.add-div:hover {
+  transform: rotate(360deg);
+}
+@keyframes example {
+     0%  {background-color: red;}
+    25%  {background-color: yellow;}
+    50%  {background-color: blue;}
+    100% {background-color: green;}
+}
+
+.register {
+ 
+ font-style: italic;
+  color: #D14750;
+ font-size: 30px;
+
+}
+
+
+input[type=submit] {
+background-color: #D14750;
+color: white;
+font-weight: bold;
+width:100px;
+ padding: 7px;
+ margin:10px;
+ border: none;
+ border-radius: 2px;
+}
+
+.baner {
+ background-color: #D14783;
+ width: 100%;
+ padding: 20px;
+
+}
+
+h2 {
+ 
+ margin: 0;
+ text-align: center;
+ font-size: 40px;
+
+
+}
+
+input[type=submit]:hover {
+ 
+ background-color: #990033;
+
+
+ 
+}
+
+.register:hover {
+color: #990033;
+
+
+}
